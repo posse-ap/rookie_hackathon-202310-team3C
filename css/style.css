@@ -162,13 +162,14 @@ body {
 }
 
 .AboutP-chi {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.8;
-  letter-spacing: 0.1em;
-  transition: color 0.3s linear;
-  display: inline-block;
-  color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    transition: color 0.3s linear;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .AboutP-chi:hover {
