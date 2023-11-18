@@ -296,6 +296,27 @@ body {
     border-radius: 100%;
     z-index: 10000;
 }
+
+
+/* POSSE生の1週間 */
+.oneweek{
+    width: 300px;
+    border-radius: 10px;
+}
+.posselife{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+}
+
 /* フッター */
 
 /* 色のリスト*/
