@@ -1,11 +1,81 @@
-.body {
-    color: #000000;
+body {
+    color:#FF66C4;
     font-family: "Noto Sans JP", sans-serif;
 }
 
 /* ↓Article用CSS↓*/
+.mainvisual-1{
+
+}
+
+.intro-1{
+
+}
+
+.contents{
+    margin-bottom: 30px;
+    padding: 1em 1em 1em 1em;
+    border: 1px solid #999;
+    background-color: #f7f7f7;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 30px;
+}
+
+.contents div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.contents ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0 1.2em;
+    overflow: hidden;
+}
+
+
+/* ↑目次用のcss */
 
 /* ヘッダー */
+.SNS-chi {
+    width: 40px;
+    height: 40px;
+    filter: brightness(5);
+}
+
+.SNSnav {
+    display: flex;
+    gap: 20px;
+}
+
+.About-and-SNS {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(179,226,216) ;
+    border-bottom: solid 1px var(--gray-light-color);
+}
+
+.AboutP-chi {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    transition: color 0.3s linear;
+    display: inline-block;
+}
+.logo-chi{
+    filter: brightness(6);
+}
 
 /* メインビジュアル（Detail用） */
 
