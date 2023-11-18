@@ -3,13 +3,31 @@ body {
     font-family: "Noto Sans JP", sans-serif;
 }
 
-/* ↓Article用CSS↓*/
-.mainvisual-1{
+.body{
+    background-color: #dcdcdc;
+}
 
+/* ↓Article用CSS↓*/
+
+.main {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 8px gray;
+}
+
+.mainvisual-1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainvisual-img {
+    
 }
 
 .intro-1{
-
+    padding: 40px;
 }
 
 .contents{
@@ -45,8 +63,13 @@ body {
     border-top: 3px dotted #000;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
+.content-article {
+    padding: 40px;
+}
 
 
 /* ヘッダー */
