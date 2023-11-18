@@ -284,7 +284,6 @@ body {
   gap: 24px;
 }
 
-
 .rings__tab__button {
   background: #ffcbf2;
   color: #333;
@@ -366,7 +365,6 @@ body {
     justify-content: space-evenly;
 }
 
-
 .topButton {
   width: 60px;
   height: 60px;
@@ -429,7 +427,7 @@ body {
     border-radius: 50px;
     position: relative;
   }
-  
+
   .cta-icon {
     position: absolute;
     top: 50%;
@@ -438,11 +436,11 @@ body {
     width: 14px;
     height: 14px;
   }
-  
+
   .cta-button:hover .cta-icon g {
     stroke: var(--white-color);
   }
-  
+
   .cta-button:hover {
     background-color: #0071bc;
     color: #ffffff;
@@ -490,7 +488,10 @@ body {
 .intro-chi-D:hover{
     filter:brightness(75%);
     transition:filter 0.2s linear ;
+<<<<<<< HEAD
 >>>>>>> e5786693b635d2268308378eff81305634716e65
+=======
+>>>>>>> fa1659705051f7e5dda05ce9b2591be04da31653
 }
 
 /* フッター */
@@ -512,7 +513,7 @@ body {
 }
 
 /* 色のリスト*/
-/* 
+/*
     薄いピンク  color:#FFCBF2;　
     濃いピンク  color: #FF66C4;　
     薄い黄色    color: #FFFF99;　
