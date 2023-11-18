@@ -8,8 +8,33 @@
 /* ヘッダー */
 
 /* メインビジュアル（Detail用） */
+.hero-img{
+    width:  100%;
+    height: px;
+}
 
 /* アバウト （Detail用）*/
+.lead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+.lead-img{
+    width: 500px;
+    border-radius: 10px;
+}
+.lead-sentense-box{
+    display: flex;
+}
+.lead-sentense{
+
+}
+.container{
+    
+    max-width: 980px;
+}
 
 /* 三つの輪 （Detail用）*/
 
