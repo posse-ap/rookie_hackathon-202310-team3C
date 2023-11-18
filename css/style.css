@@ -14,6 +14,7 @@ body {
   margin-right: 50px;
   background-color: #f5f5f5;
   box-shadow: 0 0 8px gray;
+  padding-bottom: 30px;
 }
 
 .mainvisual-1 {
@@ -364,6 +365,114 @@ body {
   border-radius: 100%;
   z-index: 10000;
 }
+.cta {
+    background: url(../img/cytonn-photography-n95VMLxqM2I-unsplash.jpg) center center / cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 40px 24px 52px;
+    margin-top: 80px;
+  }
+  
+  .cta-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+  }
+  
+  .cta-content {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    margin-top: 16px;
+  }
+  
+  .cta-footer {
+    margin-top: 32px;
+  }
+  
+  .cta-button {
+    display: block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071bc;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    border: solid 1px #0071bc;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .cta-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .cta-button:hover .cta-icon g {
+    stroke: var(--white-color);
+  }
+  
+  .cta-button:hover {
+    background-color: #0071bc;
+    color: #ffffff;
+    border: #ffffff;
+  }
+
+  .line-pic{
+    margin-top: 18px;
+  }
+.intro-par{
+    height: 322px;
+    justify-content:
+    center;display: flex;
+}
+
+.intro-chi{
+    border: 1px solid #999;
+    border-radius: 10px;
+    display:flex ;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    width: 715px;
+    background: url(../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg) center center / cover no-repeat;
+}
+
+.intro-chi-P{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.intro-chi-D{
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    color: #000FFF;
+    text-decoration: underline;
+}
+
+.intro-chi-D:hover{
+    filter:brightness(75%);
+    transition:filter 0.2s linear ;
+}
+
 /* フッター */
 .footer-div{
     width: 100%;
