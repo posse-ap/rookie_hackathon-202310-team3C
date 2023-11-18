@@ -12,7 +12,39 @@
 /* アバウト （Detail用）*/
 
 /* 三つの輪 （Detail用）*/
+.service__tab {
+    display: flex;
+    gap: 24px;
+  }
 
+  .service__tab__button {
+    background: #ffcbf2;
+    color: #333;
+    border-radius: 10px 10px 0 0;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 8px;
+    
+  }
+
+  .service__tab__button[aria-selected=true] {
+    background: #ff66c4;
+    font-weight: bold;
+  }
+
+  .service__panel {
+    border: solid 1px #333;
+    padding: 32px 32px 40px;
+  }
+
+  .service__panel__item[aria-hidden=true] {
+    display: none;
+  }
+
+  .service__panel__item__text {
+    margin-top: 24px;
+    font-size: 16px;
+  }
 /* フッター */
 
 /* 色のリスト*/
