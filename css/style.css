@@ -36,8 +36,18 @@ body {
     overflow: hidden;
 }
 
+/* content */
 
-/* ↑目次用のcss */
+
+
+.content-title {
+    border-bottom: 3px dotted #000;
+    border-top: 3px dotted #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 
 /* ヘッダー */
 .SNS-chi {
