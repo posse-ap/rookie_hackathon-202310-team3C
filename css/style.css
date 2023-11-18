@@ -108,6 +108,7 @@ body {
   z-index: 100;
   padding-top: 20px;
   margin: 0 auto;
+  display: none;
 }
 
 .movingPic:hover{
@@ -115,6 +116,7 @@ body {
     width: 140px;
     height: 140px;
     transition: all 1s  ease-in-out;
+    display: none;
 }
 
 .movingText1{
@@ -246,9 +248,18 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 30px;
-  padding-top: 100px;
-  margin: ;
 }
+
+.lead-title{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0 25px;
+  font-size: 36px;
+  color: black;
+}
+
 .lead-img {
   width: 500px;
   border-radius: 10px;
@@ -256,8 +267,7 @@ body {
 .lead-sentense-box {
   display: flex;
 }
-.lead-sentense {
-}
+
 .container {
   max-width: 980px;
 }
@@ -277,6 +287,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 40px;
+  font-weight: bold;
 }
 
 .rings__tab {
@@ -422,11 +433,11 @@ body {
     padding: 16px 20px;
     font-size: 14px;
     font-weight: bold;
-    color: #0071bc;
+    color: #FF66C4;
     line-height: 1.5;
     letter-spacing: 0.1em;
     background-color: #ffffff;
-    border: solid 1px #0071bc;
+    border: solid 1px #FF66C4;
     border-radius: 50px;
     position: relative;
   }
@@ -438,6 +449,7 @@ body {
     right: 20px;
     width: 14px;
     height: 14px;
+    filter: hue-rotate(100deg);
   }
 
   .cta-button:hover .cta-icon g {
@@ -445,7 +457,7 @@ body {
   }
 
   .cta-button:hover {
-    background-color: #0071bc;
+    background-color: #FF66C4;
     color: #ffffff;
     border: #ffffff;
   }
@@ -453,6 +465,7 @@ body {
   .line-pic{
     margin-top: 18px;
   }
+
 .intro-par{
     height: 322px;
     justify-content:
@@ -491,10 +504,7 @@ body {
 .intro-chi-D:hover{
     filter:brightness(75%);
     transition:filter 0.2s linear ;
-<<<<<<< HEAD
->>>>>>> e5786693b635d2268308378eff81305634716e65
-=======
->>>>>>> fa1659705051f7e5dda05ce9b2591be04da31653
+
 }
 
 /* フッター */
