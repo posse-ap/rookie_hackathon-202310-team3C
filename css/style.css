@@ -1,5 +1,5 @@
 body {
-    color:#FF66C4;
+    color:#000000;
     font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -57,12 +57,38 @@ body {
     gap: 40px;
 }
 
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(222, 222, 222);
+}
+
+.nav-par{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-chi{
+    color: rgb(255, 134, 154);
+    font-size: 25px;
+    border-right: solid 1px rgb(222, 222, 222);
+    width: 25%;
+    text-align: center;
+}
+
 .header-up {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:rgb(179,226,216) ;
-    border-bottom: solid 1px var(--gray-light-color);
+    border-bottom: solid 1px rgb(222, 222, 222);;
 }
 
 .AboutP-chi {
@@ -72,6 +98,7 @@ body {
     letter-spacing: 0.1em;
     transition: color 0.3s linear;
     display: inline-block;
+    color: #ffffff;
 }
 .logo-chi{
     filter: brightness(6);
@@ -81,6 +108,22 @@ body {
 .hero-img{
     width:  100%;
     height: px;
+}
+
+.WHATISPOSSE{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.hero-div{
+    background: url(../img/hero.jpg) center center / cover no-repeat;
+    height: 100vh;
 }
 
 /* アバウト （Detail用）*/
