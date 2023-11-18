@@ -108,6 +108,7 @@ body {
   z-index: 100;
   padding-top: 20px;
   margin: 0 auto;
+  display: none;
 }
 
 .movingPic:hover{
@@ -115,6 +116,7 @@ body {
     width: 140px;
     height: 140px;
     transition: all 1s  ease-in-out;
+    display: none;
 }
 
 .movingText1{
@@ -249,6 +251,17 @@ body {
   padding-top: 100px;
   margin: ;
 }
+
+.lead-title{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0 25px;
+  font-size: 36px;
+  color: black;
+}
+
 .lead-img {
   width: 500px;
   border-radius: 10px;
@@ -256,8 +269,7 @@ body {
 .lead-sentense-box {
   display: flex;
 }
-.lead-sentense {
-}
+
 .container {
   max-width: 980px;
 }
@@ -450,6 +462,7 @@ body {
   .line-pic{
     margin-top: 18px;
   }
+
 .intro-par{
     height: 322px;
     justify-content:
