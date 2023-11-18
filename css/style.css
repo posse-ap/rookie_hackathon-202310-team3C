@@ -143,6 +143,8 @@ body {
     align-items: center;
     gap: 30px;
     padding-top: 100px;
+    margin: ;
+    
 }
 .lead-img{
     width: 500px;
@@ -158,7 +160,10 @@ body {
     
     max-width: 980px;
 }
-
+.section-lead{
+    display: flex;
+    justify-content: center;
+}
 /* 三つの輪 （Detail用）*/
 .title {
     font-size: 36px;
