@@ -291,18 +291,24 @@ body {
   width: 240px;
   height: auto;
   border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
 }
 
 .tab-foto2 {
   width: 240px;
   height: auto;
   border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
 }
 
 .tab-foto3 {
   width: 240px;
   height: auto;
   border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
 }
 
 .topButton {
