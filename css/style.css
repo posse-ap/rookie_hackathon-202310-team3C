@@ -1,5 +1,5 @@
 body {
-
+    color:#000000;
     font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -67,12 +67,38 @@ body {
     gap: 40px;
 }
 
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(222, 222, 222);
+}
+
+.nav-par{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-chi{
+    color: rgb(255, 134, 154);
+    font-size: 25px;
+    border-right: solid 1px rgb(222, 222, 222);
+    width: 25%;
+    text-align: center;
+}
+
 .header-up {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:rgb(179,226,216) ;
-    border-bottom: solid 1px var(--gray-light-color);
+    border-bottom: solid 1px rgb(222, 222, 222);;
 }
 
 .AboutP-chi {
@@ -82,6 +108,7 @@ body {
     letter-spacing: 0.1em;
     transition: color 0.3s linear;
     display: inline-block;
+    color: #ffffff;
 }
 .logo-chi{
     filter: brightness(6);
@@ -91,6 +118,22 @@ body {
 .hero-img{
     width:  100%;
     height: px;
+}
+
+.WHATISPOSSE{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.hero-div{
+    background: url(../img/hero.jpg) center center / cover no-repeat;
+    height: 100vh;
 }
 
 /* アバウト （Detail用）*/
@@ -117,12 +160,19 @@ body {
 }
 
 /* 三つの輪 （Detail用）*/
-.service__tab {
+.title {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+.rings__tab {
     display: flex;
     gap: 24px;
   }
 
-  .service__tab__button {
+  .rings__tab__button {
     background: #ffcbf2;
     color: #333;
     border-radius: 10px 10px 0 0;
@@ -132,23 +182,43 @@ body {
     
   }
 
-  .service__tab__button[aria-selected=true] {
+  .rings__tab__button[aria-selected=true] {
     background: #ff66c4;
     font-weight: bold;
   }
 
-  .service__panel {
+  .rings__panel {
     border: solid 1px #333;
     padding: 32px 32px 40px;
   }
 
-  .service__panel__item[aria-hidden=true] {
+  .rings__panel__item[aria-hidden=true] {
     display: none;
   }
 
-  .service__panel__item__text {
+  .rings__panel__item__text {
     margin-top: 24px;
     font-size: 16px;
+  }
+
+  .tab-foto{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tab-foto1{
+    width: 240px;
+    height: auto;
+  }
+
+  .tab-foto2{
+    width: 240px;
+    height: auto;
+  }
+
+  .tab-foto3{
+    width: 240px;
+    height: auto;
   }
 /* フッター */
 

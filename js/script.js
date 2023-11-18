@@ -1,7 +1,7 @@
 //タブ切り替え//
 document.addEventListener("DOMContentLoaded", function () {
-    const tabButtons = document.querySelectorAll(".service__tab__button");
-    const tabPanels = document.querySelectorAll(".service__panel__item");
+    const tabButtons = document.querySelectorAll(".rings__tab__button");
+    const tabPanels = document.querySelectorAll(".rings__panel__item");
 
     tabButtons.forEach((button) => {
       button.addEventListener("click", function () {
