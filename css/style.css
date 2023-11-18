@@ -1,10 +1,11 @@
 body {
     color:#000000;
     font-family: "Noto Sans JP", sans-serif;
-    background-color: #dcdcdc;
-    
 }
 
+.body{
+    background-color: #dcdcdc;
+}
 
 /* ↓Article用CSS↓*/
 
