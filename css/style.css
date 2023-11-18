@@ -7,6 +7,10 @@ body {
   background-color: #dcdcdc;
 }
 
+.section{
+    margin-top: 120px;
+}
+
 /* ↓Article用CSS↓*/
 
 .main {
@@ -69,6 +73,8 @@ body {
   padding-bottom: 10px;
   margin-left: 40px;
   margin-right: 40px;
+  font-size: 30px;
+  font-weight: 500px;
 }
 
 .content-article {

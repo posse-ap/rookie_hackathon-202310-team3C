@@ -68,14 +68,13 @@
       <!-- <img src="../img/hero.jpg" alt="" class="hero-img"> -->
       <h1 class="WHATISPOSSE">WHAT IS POSSE3?</h1>
     </div>
-
     <!-- リード -->
-    <section>
+    <section class="section" id="WHAT">
       <div class="lead-title">プログラミングサークル"POSSE"って何？</div>
-      <div class="section-lead" id="WHAT">
+      <div class="section-lead">
         <div class="container">
           <div class="lead">
-            <div class="">
+            <div>
               <img src="../img/lead.png" alt="" class="lead-img">
             </div>
             <div class="lead-content lead-sentense-box">
@@ -146,9 +145,10 @@
             </div>
           </div>
     </section>
+    </section>
 
     <!--POSSE生の1日  -->
-    <section class="life" id="LIFE">
+    <section class="life section" id="LIFE">
       <div class="title">POSSE生の1週間</div>
       <div class="posselife">
         <div><img src="../img/月 (1).png" alt="" class="oneweek"></div>
@@ -168,7 +168,7 @@
         </div>
       </div>
     </section>
-    <section class="cta" id="LINE">
+    <section class="cta section" id="LINE">
       <h2 class="cta-title">
         <img src="../img/icon-line.svg" alt="" width="40px" height="40px" class="line-pic">
         POSSE 公式LINE
@@ -215,6 +215,15 @@
             scrollTop: 0
           }, 400);
         })
+      });
+      $('a[href^="#"]').click(function () {
+        var target = $($.attr(this, 'href'));
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top - $('.header').outerHeight()
+          }, 500);
+          return false;
+        }
       });
     </script>
   </main>
