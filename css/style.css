@@ -4,6 +4,40 @@
 }
 
 /* ↓Article用CSS↓*/
+.mainvisual-1{
+
+}
+
+.intro-1{
+
+}
+
+.contents{
+    margin-bottom: 30px;
+    padding: 1em 1em 1em 1em;
+    border: 1px solid #999;
+    background-color: #f7f7f7;
+    margin-left: 40px;
+    margin-right: 900px;
+    margin-top: 30px;
+}
+
+.contents div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.contents ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0 1.2em;
+    overflow: hidden;
+}
+
+
+/* ↑目次用のcss */
 
 /* ヘッダー */
 
