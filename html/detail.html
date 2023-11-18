@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="../css/style.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../js/script.js" defer></script>
-
 </head>
 
 <body>
@@ -84,6 +83,7 @@
             </div>
         </section>
       <!-- 三つの輪 -->
+      <div class="topButton">↑</div>
       <section id="rings" class="section rings">
         <div class="inner inner--small">
           <h2 class="title">三つの輪</h2>
@@ -162,7 +162,24 @@
               </div>
             </div>
         </section>
-        <script></script>
+        <script>
+            $(function() {
+                $('.topButton').hide();
+                $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.topButton').fadeIn();
+                } else {
+                $('.topButton').fadeOut();
+                }
+                });
+    
+                $('.topButton').click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 400);
+                })
+            });
+        </script>
     </main>
     <footer></footer>
 </body>
