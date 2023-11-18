@@ -28,6 +28,12 @@ body {
   padding: 40px;
 }
 
+.article-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
 .contents {
   margin-bottom: 30px;
   padding: 1em 1em 1em 1em;
@@ -69,6 +75,29 @@ body {
   padding: 40px;
 }
 
+.content-1::before {
+    content: "";
+    display: block;
+    height: 150px; 
+    margin-top: -150px; 
+    visibility: hidden;
+}
+
+.content-2::before {
+    content: "";
+    display: block;
+    height: 150px; 
+    margin-top: -150px; 
+    visibility: hidden;
+}
+
+.content-3::before{
+    content: "";
+    display: block;
+    height: 150px; 
+    margin-top: -150px; 
+    visibility: hidden;
+}
 .movingPic {
   background: rgb(255, 134, 154);
   width: 140px;
@@ -277,10 +306,18 @@ body {
   display: none;
 }
 
+
+
+
+
 .rings__panel__item__text {
   margin-top: 24px;
   font-size: 16px;
 }
+
+
+
+
 
 .tab-foto {
   display: flex;
