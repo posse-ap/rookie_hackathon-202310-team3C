@@ -29,3 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
+  button.addEventListener("click", () => {
+    header.classList.toggle("is-open");
+    document.body.classList.toggle("is-fixed");
+  });  
