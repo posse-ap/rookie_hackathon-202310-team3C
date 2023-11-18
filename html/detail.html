@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,45 +9,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../js/script.js" defer></script>
-  </head>
-  <body>
-   <header>
-      <div style="padding: 30px;" class="header-up">
-        <div class="logo-par">
-             <a href="">
-                <img src="../img/logo.svg" alt="" class="logo-chi">
-            </a>
-        </div>
-        <div class="About-and-SNS">
-            <div class="AboutP-par">
-                <a href=""><span class="AboutP-chi">POSSEとは</span>
+
+</head>
+
+<body>
+    <header class="header">
+        <div style="padding: 30px;" class="header-up">
+            <div class="logo-par">
+                <a href="">
+                    <img src="../img/logo.svg" alt="" class="logo-chi">
                 </a>
             </div>
-            <div class="SNSnav">
-                <div class="SNS-par">
-                    <a href="">
-                        <img class="SNS-chi" src="../img/icon-instagram.png" alt="">
+            <div class="About-and-SNS">
+                <div class="AboutP-par">
+                    <a href=""><span class="AboutP-chi">POSSEとは</span>
                     </a>
                 </div>
-                <div class="SNS-par">
-                    <a href="https://line.me/R/ti/p/@651htnqp?from=page">
-                        <img class="SNS-chi" src="../img/icon-line.svg" alt="" style="filter: hue-rotate(200deg);">
-                    </a>
+                 <div class="SNSnav">
+                    <div class="SNS-par">
+                        <a href="">
+                            <img class="SNS-chi" src="../img/icon-instagram.png" alt="">
+                        </a>
+                    </div>
+                    <div class="SNS-par">
+                        <a href="https://line.me/R/ti/p/@651htnqp?from=page">
+                            <img class="SNS-chi" src="../img/icon-line.svg" alt="" style="filter: hue-rotate(200deg);">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-   </header>
+        <ul class="nav-par">
+            <li class="nav-chi">
+                <a href="" style="display: block;width: 100%;">1</a>
+            </li>
+            <li class="nav-chi">
+                <a href="" style="display: block;width: 100%;">1</a>
+            </li>
+            <li class="nav-chi">
+                <a href="" style="display: block;width: 100%;">1</a>
+            </li>
+            <li class="nav-chi">
+                <a href="" style="display: block;width: 100%;">1</a>
+            </li>
+        </ul>
+    </header>
     <main>
         <!-- メインビジュアル -->
-        <img src="../img/hero.jpg" alt="" class="hero-img">
+        <div class="hero-div">
+            <!-- <img src="../img/hero.jpg" alt="" class="hero-img"> -->
+            <h1 class="WHATISPOSSE">WHAT IS POSSE③</h1>
+        </div>
 
         <!-- リード -->
         <section class="section-lead">
@@ -54,24 +73,24 @@
                 <div class="lead">
                     <div class=""><img src="../img/lead.png" alt="" class="lead-img"></div>
                     <div class="lead-content lead-sentense-box">
-                        <div class="lead-sentense"><p>
-                            POSSEではプログラミング初学者の割合が9割です。<br>周りもそうなので、初学者でも安心して、助け合いながら、共に学ぶことができます！<br>そのため、友達や先輩と一緒に学んで行くことが大事になっていきます。
+                        <div class="lead-sentense">
+                            <p>
+                                POSSEではプログラミング初学者の割合が9割です。<br>周りもそうなので、初学者でも安心して、助け合いながら、共に学ぶことができます！<br>そのため、友達や先輩と一緒に学んで行くことが大事になっていきます。
                                 POSSEにはPOSSE①、POSSE②、POSSE③とコミュニティが分かれて活動しているのですが、その中で1番仲が良いと言われているPOSSE③となぜ仲がいいのかを3つの輪と称して紹介します！
-                        </p>
-                        </div>
-                    </div>
+                            </p>
+                 
+              </div>
                 </div>
             </div>
         </section>
-
       <!-- 三つの輪 -->
-      <section id="service" class="section service">
+      <section id="rings" class="section rings">
         <div class="inner inner--small">
           <h2 class="title">三つの輪</h2>
-          <div class="service__inner">
-            <div class="service__tab" role="tablist">
+          <div class="rings__inner">
+            <div class="rings__tab" role="tablist">
               <button
-                class="service__tab__button"
+                class="rings__tab__button"
                 role="tab"
                 aria-controls="panel1"
                 aria-selected="true"
@@ -79,7 +98,7 @@
                 プログラミング
               </button>
               <button
-                class="service__tab__button"
+                class="rings__tab__button"
                 role="tab"
                 aria-controls="panel2"
                 aria-selected="false"
@@ -87,7 +106,7 @@
                 遊び
               </button>
               <button
-                class="service__tab__button"
+                class="rings__tab__button"
                 role="tab"
                 aria-controls="panel3"
                 aria-selected="false"
@@ -95,9 +114,9 @@
                 対話
               </button>
             </div>
-            <div class="service__panel">
-              <div id="panel1" role="tabpanel" class="service__panel__item">
-                <p class="service__panel__item__text">
+            <div class="rings__panel">
+              <div id="panel1" role="tabpanel" class="rings__panel__item">
+                <p class="rings__panel__item__text">
                   POSSEでは、プロのエンジニアが作るオリジナルのカリキュラムのもと教材を進めていくのですが、その教材の進捗率がPOSSE①、POSSE②、POSSE③の中だとPOSSE③が1番高いです！
                   考えられる理由として<br />
                   ・同じ大学なので集まりやすい。<br />
@@ -108,21 +127,32 @@
               <div
                 id="panel2"
                 role="tabpanel"
-                class="service__panel__item"
+                class="rings__panel__item"
                 hidden
               >
-                <p class="service__panel__item__text">
+                <p class="rings__panel__item__text">
                   POSSEでは、大学生らしく遊びも充実しています！
                   公園で水風船を作って遊んだり、ディズニーに行ったり、旅行したり、Harbors表参道というPOSSEに入会すれば24時間使えるコワーキングスペースで映画やキングオブコントを見たりしています！
                 </p>
+                <div class="tab-foto">
+                  <figure>
+                    <img src="../img/inthe-tab.jpg" alt="" class="tab-foto1" />
+                  </figure>
+                  <figure>
+                    <img src="../img/inthe-tab2.jpg" alt="" class="tab-foto2" />
+                  </figure>
+                  <figure>
+                    <img src="../img/inthe-tab3.jpg" alt="" class="tab-foto3" />
+                  </figure>
+                </div>
               </div>
               <div
                 id="panel3"
                 role="tabpanel"
-                class="service__panel__item"
+                class="rings__panel__item"
                 hidden
               >
-                <p class="service__panel__item__text">
+                <p class="rings__panel__item__text">
                   POSSEでは、毎週の定例会やハッカソンというイベントの前後でワークシートを使って、ディスカッションを深めています。主に『七つの習慣』という本を読んで、それについて深堀することが多いです。そうすることで、人格的に成長することが見込めます。そして、普段のPOSSE以外の生活でも影響します。<br />
                   ここで私のエピソードを紹介したいと思います。<br />
                   私は、実はPOSSEを1度やめようと思っていたことがありました。時間や金銭的な逼迫などからです。そのことを同期のYくんに打ち明けた際、わざわざ僕のために時間を作って、通話して悩みを聞いてくれました。中々前向きになれない自分を否定せずに受け入れてくれて、いくつかの選択肢も一緒に考えてくれました。
@@ -131,11 +161,10 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <script></script>
+        </section>
+        <script></script>
     </main>
     <footer></footer>
-  </body>
+</body>
+
 </html>
