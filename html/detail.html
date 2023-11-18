@@ -26,10 +26,10 @@
                 </a>
             </div>
             <div class="About-and-SNS">
-                <div class="AboutP-par">
+                <!-- <div class="AboutP-par">
                     <a href="./detail.html"><span class="AboutP-chi">POSSEとは</span>
                     </a>
-                </div>
+                </div> -->
                 <div class="SNSnav">
                     <div class="SNS-par">
                         <a href="https://www.instagram.com/posse_programming/" target="_blank">
@@ -46,13 +46,13 @@
         </div>
         <ul class="nav-par">
             <li class="nav-chi">
-                <a href="" style="display: block;width: 100%;">1</a>
+                <a href="#WHAT" style="display: block;width: 100%;">POSSEって何？</a>
             </li>
             <li class="nav-chi">
-                <a href="" style="display: block;width: 100%;">1</a>
+                <a href="#rings" style="display: block;width: 100%;">３つの輪</a>
             </li>
             <li class="nav-chi">
-                <a href="" style="display: block;width: 100%;">1</a>
+                <a href="" id="LIFE" style="display: block;width: 100%;">POSSE生の一週間</a>
             </li>
             <li class="nav-chi">
                 <a href="" style="display: block;width: 100%;">1</a>
@@ -67,7 +67,7 @@
         </div>
 
         <!-- リード -->
-        <section class="section-lead">
+        <section class="section-lead" id="WHAT">
             <div class="container">
                 <div class="lead">
                     <div class=""><img src="../img/lead.png" alt="" class="lead-img"></div>
@@ -86,7 +86,7 @@
       <div class="topButton">↑</div>
       <section id="rings" class="section rings">
         <div class="inner inner--small">
-          <h2 class="title">三つの輪</h2>
+          <h2 class="title">３つの輪</h2>
           <div class="rings__inner">
             <div class="rings__tab" role="tablist">
               <button
@@ -122,7 +122,7 @@
                   ・同じ大学なので対面で集まりやすい。<br />
                   ・お互いを理解しているので、無駄な対立が生まれない。<br />
                   ・自らの恥を晒すことができる仲間である。<br><br>
-                  があります!
+                  これらが挙げられます。これを見ている皆さんも一体となって駆け抜けましょう。
                 </p>
               </div>
               <div
@@ -163,6 +163,54 @@
               </div>
             </div>
         </section>
+        <section class="cta">
+            <h2 class="cta-title">
+              <img src="../img/icon-line.svg" alt="" width="40px" height="40px" class="line-pic">
+              POSSE 公式LINE
+            </h2>
+            <div class="cta-content">
+              <p>
+                公式LINE にてご質問を随時受け付けております。<br />詳細や POSSE
+                最新情報につきましては、公式 LINE にてお知らせ致しますので<br />下記ボタンより友達追加をお願いします！
+              </p>
+            </div>
+            <div class="cta-footer">
+              <a
+                href="https://line.me/R/ti/p/@651htnqp?from=page"
+                class="cta-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LINE追加
+                <svg
+                  class="cta-icon"
+                  fill="none"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <clipPath id="a">
+                    <path d="m0 .693604h14v14h-14z" />
+                  </clipPath>
+                  <g
+                    clip-path="url(#a)"
+                    stroke="#0071bc"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="m12.5416 8.27698v5.05752c0 .5891-.4783 1.0675-1.0675 1.0675h-10.11497c-.589171 0-1.067504-.4784-1.067504-1.0675v-10.11502c0-.58917.478333-1.0675 1.067504-1.0675h5.0575"
+                    />
+                    <path d="m10.2084.985229h3.5" />
+                    <path d="m13.7084 4.48523v-3.500001" />
+                    <path d="m7.29163 7.4019 6.41667-6.416671" />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </section>
         <script>
             $(function() {
                 $('.topButton').hide();
@@ -202,7 +250,11 @@
           </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-div">
+            <span class="footer-span">&copy; inosent monika</span>
+        </div>
+    </footer>
 </body>
 
 </html>

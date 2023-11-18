@@ -1,139 +1,167 @@
 body {
-    color:#000000;
-    font-family: "Noto Sans JP", sans-serif;
+  color: #000000;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-.body{
-    background-color: #dcdcdc;
+.body {
+  background-color: #dcdcdc;
 }
 
 /* ↓Article用CSS↓*/
 
 .main {
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: #f5f5f5;
-    box-shadow: 0 0 8px gray;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 8px gray;
+  padding-bottom: 30px;
 }
 
-.mainvisual-1{
-    display: flex;
-    justify-content: center;
-    
+.mainvisual-1 {
+  display: flex;
+  justify-content: center;
 }
 
 .mainvisual-img {
-    
 }
 
-.intro-1{
-    padding: 40px;
+.intro-1 {
+  padding: 40px;
 }
 
-.contents{
-    margin-bottom: 30px;
-    padding: 1em 1em 1em 1em;
-    border: 1px solid #999;
-    background-color: #f7f7f7;
-    margin-left: 40px;
-    margin-right: 900px;
-    margin-top: 30px;
+.contents {
+  margin-bottom: 30px;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #999;
+  background-color: #f7f7f7;
+  margin-left: 40px;
+  margin-right: 900px;
+  margin-top: 30px;
 }
 
 .contents div {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 5px 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0;
 }
 
 .contents ol {
-    list-style-type: decimal;
-    margin: 0;
-    padding: 0 1.2em;
-    overflow: hidden;
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0 1.2em;
+  overflow: hidden;
 }
 
 
 
 /* content */
 
-
-
 .content-title {
-    border-bottom: 3px dotted #000;
-    border-top: 3px dotted #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+  border-bottom: 3px dotted #000;
+  border-top: 3px dotted #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .content-article {
-    padding: 40px;
+  padding: 40px;
 }
 
+.movingPic {
+  background: rgb(255, 134, 154);
+  width: 140px;
+  height: 140px;
+  clip-path: ellipse(80% 50% at 50% 50%);
+  transition: all 1s ease;
+  z-index: 100;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.movingPic:hover{
+    clip-path: ellipse(50% 50% at 50% 50%);
+    width: 140px;
+    height: 140px;
+    transition: all 1s  ease-in-out;
+}
+
+.movingText1{
+    font-weight: bold;
+    z-index: 100;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.movingText2{
+    font-weight: bold;
+    z-index: 100;
+    margin-left: 14px;
+    margin-top: 24px;
+}
 
 /* ヘッダー */
 .SNS-chi {
-    width: 40px;
-    height: 40px;
-    filter: brightness(5);
+  width: 40px;
+  height: 40px;
+  filter: brightness(5);
 }
 
-.SNS-chi:hover{
-    opacity: 50%;
+.SNS-chi:hover {
+  opacity: 50%;
 }
 
 .SNSnav {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .About-and-SNS {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    border-bottom: solid 1px rgb(222, 222, 222);
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px rgb(222, 222, 222);
 }
 
-.nav-par{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    align-items: center;
-    height: 100%;
+.nav-par {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  height: 100%;
 }
 
-.nav-chi{
-    color: rgb(255, 134, 154);
-    font-size: 25px;
-    border-right: solid 1px rgb(222, 222, 222);
-    width: 25%;
-    text-align: center;
+.nav-chi {
+  color: rgb(255, 134, 154);
+  font-size: 25px;
+  border-right: solid 1px rgb(222, 222, 222);
+  width: 25%;
+  text-align: center;
 }
 
-.nav-chi:hover{
-    opacity: 50%;
-    background-color: #e6e5e5;
-    transition: opacity .1s linear;
+.nav-chi:hover {
+  opacity: 50%;
+  background-color: #e6e5e5;
+  transition: opacity 0.1s linear;
 }
 
 .header-up {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:rgb(179,226,216) ;
-    border-bottom: solid 1px rgb(222, 222, 222);;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(179, 226, 216);
+  border-bottom: solid 1px rgb(222, 222, 222);
 }
 
 .AboutP-chi {
@@ -144,159 +172,145 @@ body {
     transition: color 0.3s linear;
     display: inline-block;
     color: #ffffff;
+    text-decoration: underline;
 }
 
-.AboutP-chi:hover{
-    opacity: 50%;
+.AboutP-chi:hover {
+  opacity: 50%;
 }
 
-.logo-chi{
-    filter: brightness(6);
+.logo-chi {
+  filter: brightness(6);
 }
 
-.logo-chi:hover{
-    opacity: 50%;
+.logo-chi:hover {
+  opacity: 50%;
 }
 
 /* メインビジュアル（Detail用） */
-.hero-img{
-    width:  100%;
-    height: px;
+.hero-img {
+  width: 100%;
+  height: px;
 }
 
-.WHATISPOSSE{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 100px;
-    text-decoration: underline;
-    text-shadow: 2px 2px 4px rgb(52, 52, 52);
+.WHATISPOSSE {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 100px;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgb(52, 52, 52);
 }
 
-.hero-div{
-    background: url(../img/hero.jpg) center center / cover no-repeat;
-    height: 100vh;
+.hero-div {
+  background: url(../img/hero.jpg) center center / cover no-repeat;
+  height: 100vh;
 }
 
 /* アバウト （Detail用）*/
-.lead{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 30px;
-    padding-top: 100px;
-    margin: ;
-    
+.lead {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 30px;
+  padding-top: 100px;
+  margin: ;
 }
-.lead-img{
-    width: 500px;
-    border-radius: 10px;
+.lead-img {
+  width: 500px;
+  border-radius: 10px;
 }
-.lead-sentense-box{
-    display: flex;
+.lead-sentense-box {
+  display: flex;
 }
-.lead-sentense{
-
+.lead-sentense {
 }
-.container{
-    
-    max-width: 980px;
+.container {
+  max-width: 980px;
 }
-.section-lead{
-    display: flex;
-    justify-content: center;
+.section-lead {
+  display: flex;
+  justify-content: center;
 }
 /* 三つの輪 （Detail用）*/
-.rings{
-    width: 80%;
-    margin-left: 10%;
+.rings {
+  width: 80%;
+  margin-left: 10%;
 }
 
 .title {
-    font-size: 36px;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
-  }
-
-.rings__tab {
-    display: flex;
-    gap: 24px;
-  }
-
-  .rings__tab__button {
-    background: #ffcbf2;
-    color: #333;
-    border-radius: 10px 10px 0 0;
-    width: 33.3333%;
-    text-align: center;
-    padding: 20px 8px;
-    
-  }
-
-  .rings__tab__button[aria-selected=true] {
-    background: #ff66c4;
-    font-weight: bold;
-  }
-
-  .rings__panel {
-    border: solid 1px #333;
-    padding: 32px 32px 40px;
-  }
-
-  .rings__panel__item[aria-hidden=true] {
-    display: none;
-  }
-
-  .rings__panel__item__text {
-    margin-top: 24px;
-    font-size: 16px;
-  }
-
-  .tab-foto{
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .tab-foto1{
-    width: 240px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .tab-foto2{
-    width: 240px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .tab-foto3{
-    width: 240px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .topButton{
-    width: 50px;
-    height: 50px;
-    background-color: #ff66c4;
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    user-select: none;
-    cursor: pointer;
-    border-radius: 100%;
-    z-index: 10000;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
+.rings__tab {
+  display: flex;
+  gap: 24px;
+}
+
+.rings__tab__button {
+  background: #ffcbf2;
+  color: #333;
+  border-radius: 10px 10px 0 0;
+  width: 33.3333%;
+  text-align: center;
+  padding: 20px 8px;
+}
+
+.rings__tab__button[aria-selected="true"] {
+  background: #ff66c4;
+  font-weight: bold;
+}
+
+.rings__panel {
+  border: solid 1px #333;
+  padding: 32px 32px 40px;
+}
+
+.rings__panel__item[aria-hidden="true"] {
+  display: none;
+}
+
+.rings__panel__item__text {
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.tab-foto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-foto1 {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
+}
+
+.tab-foto2 {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
+}
+
+.tab-foto3 {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #FFCBF2;
+}
 
 /* POSSE生の1週間 */
 .oneweek{
@@ -315,9 +329,148 @@ body {
 }
 
 
+
+.topButton {
+  width: 60px;
+  height: 60px;
+  background-color: #ff66c4;
+  color: #fff;
+  text-align: center;
+  line-height: 56px;
+  position: fixed;
+  font-size: 24px;
+  right: 20px;
+  bottom: 20px;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 100%;
+  z-index: 10000;
+}
+.cta {
+    background: url(../img/cytonn-photography-n95VMLxqM2I-unsplash.jpg) center center / cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 40px 24px 52px;
+    margin-top: 80px;
+  }
+  
+  .cta-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+  }
+  
+  .cta-content {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    margin-top: 16px;
+  }
+  
+  .cta-footer {
+    margin-top: 32px;
+  }
+  
+  .cta-button {
+    display: block;
+    width: 315px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071bc;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    border: solid 1px #0071bc;
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .cta-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .cta-button:hover .cta-icon g {
+    stroke: var(--white-color);
+  }
+  
+  .cta-button:hover {
+    background-color: #0071bc;
+    color: #ffffff;
+    border: #ffffff;
+  }
+
+  .line-pic{
+    margin-top: 18px;
+  }
+.intro-par{
+    height: 322px;
+    justify-content:
+    center;display: flex;
+}
+
+.intro-chi{
+    border: 1px solid #999;
+    border-radius: 10px;
+    display:flex ;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    width: 715px;
+    background: url(../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg) center center / cover no-repeat;
+}
+
+.intro-chi-P{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.intro-chi-D{
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    color: #000FFF;
+    text-decoration: underline;
+}
+
+.intro-chi-D:hover{
+    filter:brightness(75%);
+    transition:filter 0.2s linear ;
 }
 
 /* フッター */
+.footer-div{
+    width: 100%;
+    border-top: solid 1px rgb(163, 163, 163);
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.footer-span{
+    text-align: center;
+    padding: 30px;
+    color: #999;
+    font-size: 15px;
+    display: block;
+}
 
 /* 色のリスト*/
 /* 
