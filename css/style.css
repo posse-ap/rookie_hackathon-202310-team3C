@@ -324,6 +324,7 @@ body {
   padding: 25px 0 25px;
   font-size: 36px;
   color: black;
+  text-decoration: underline;
 }
 
 .lead-img {
@@ -357,6 +358,7 @@ body {
   margin-bottom: 40px;
   margin-top: 40px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .rings__tab {
