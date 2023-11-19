@@ -222,7 +222,7 @@ body {
 }
 
 .nav-chi:hover {
-  opacity: 50%;
+  opacity: 75%;
   background-color: #e6e5e5;
   transition: opacity 0.1s linear;
 }
@@ -231,7 +231,7 @@ body {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    color: black;
+    color: rgb(255, 134, 154);;
     text-decoration: none;
 }
 
@@ -241,7 +241,7 @@ body {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: black;
+    background-color:deeppink;
     transform: translate(-100%,0);
     transition: transform cubic-bezier(0.125,0.61,0.355,1) 0.4s;
     content: "";
