@@ -12,7 +12,6 @@ body {
 }
 
 /* ↓Article用CSS↓*/
-
 .main {
   margin-left: 50px;
   margin-right: 50px;
@@ -24,12 +23,13 @@ body {
 .mainvisual-1 {
   display: flex;
   justify-content: center;
+  background: url(../img/spring.jpg) center center /cover no-repeat;
+  margin-bottom: 40px;
 }
-
-.mainvisual-img {}
 
 .intro-1 {
   padding: 40px;
+  padding: 0px 40px 40px 40px;
 }
 
 .article-title {
@@ -192,6 +192,7 @@ body {
   display: flex;
   flex-direction: column;
   border-bottom: solid 1px rgb(222, 222, 222);
+  z-index: 1000;
 }
 
 .header.is-transparent {
